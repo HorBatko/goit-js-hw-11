@@ -41,12 +41,12 @@ body {
 }
 
 .search-form {
-  margin: 0 auto;
-  display: flex;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
   gap: 8px;
-  position: relative;
-  top: 36px;
-  left: 534px;
+  padding-left: 40%;
+  padding-right: 40%;
 }
 
 .search-input-form {
@@ -110,15 +110,14 @@ body {
 
 .gallery {
   display: flex;
-  width: 1440px;
+  width: auto;
   height: 792px;
   padding-top: 108px;
   padding-right: 156px;
   padding-left: 156px;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 24px;
+  gap: 24px;
   background-color: #fff;
 }
 
