@@ -21,7 +21,7 @@ export const showLoader = () => {
 const hideLoader = () => {
     preloader.style.display = 'none';
 };
-
+// lollll
 
 form.addEventListener('submit', sendForm);
 
